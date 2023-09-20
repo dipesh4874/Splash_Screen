@@ -4,13 +4,13 @@ import SplashScreen from 'react-native-splash-screen'
 
 const App = () => {
   useEffect(()=>{
-    SplashScreen.hide()
+    SplashScreen.hide();
   },[])
   return (
     <View style={{flex:1,justifyContent:"center",alignItems:"center"}}>
-      <Text style={{fontSize:30,fontWeight:"bold"}}>App</Text>
+      <Text style={{fontSize:30,fontWeight:"bold",color:"black"}}>Hello Dipesh</Text>
     </View>
   )
 }
 
-export default App
+export default App;
